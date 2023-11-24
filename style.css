@@ -32,6 +32,19 @@ body{
     color: #f9faf8;
 }
 
+.button-1{
+    background-color: #f9faf8;
+    color: darkorchid;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
 a{
     text-decoration: none;
     color: #f9faf8;
@@ -76,7 +89,7 @@ button{
     color: #f9faf8;
     padding: 10px 15px;
     border: #f9faf8;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .left{
@@ -85,4 +98,48 @@ button{
     justify-content: center;
     align-items: start;
     gap: 15px;
+}
+
+.benefits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    gap: 20px;
+    padding: 30px;
+}
+
+.qualities{
+    display: flex;
+    justify-content: center;
+    width: 70%; 
+    gap: 100px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    width: fit-content;
+    gap: 10px;
+    text-align: end;
+}
+
+h2{
+    font-size: 45px;
+    color: darkorchid;
+    font-weight: bold;
+    margin: 0px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    margin: 0px;
+    text-align: center;
+    width: 250px;
 }
