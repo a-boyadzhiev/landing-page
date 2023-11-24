@@ -1,19 +1,27 @@
 body{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 0px;
     padding: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #1F2937;
+    background-color: #f9faf8;
 }
 
+.nav-container{
+    background-color: darkorchid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 70%;
     align-items: center;
-    background-color: #1F2937;
     padding: 0px 10px;
     border-bottom: #f9faf8 10px;
 }
@@ -37,4 +45,44 @@ ul{
     align-items: center;
     gap: 20px;
     padding: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    background-color: #f9faf8;
+}
+
+h1{
+    color: darkorchid;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+p{
+    color: black;
+    font-size: 18px;
+    margin: 0px;
+    width: 75%;
+}
+
+button{
+    background-color: darkorchid;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f9faf8;
+    padding: 10px 15px;
+    border: #f9faf8;
+    border-radius: 5px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
 }
