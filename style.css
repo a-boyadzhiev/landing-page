@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #1F2937;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 0px 10px;
+    border-bottom: #f9faf8 10px;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+ul{
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px;
+}
